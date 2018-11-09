@@ -1,7 +1,7 @@
 const { expect } = require('chai');
-const { willAdd } = require('./dc1_targetSum.js');
+const { willAdd } = require('./targetSum.js');
 
-describe('main', () => {
+describe('Target Sum Algorithm', () => {
   describe('Check to ensure the function will return true and false properly:', () => {
     it('Returns true for an array where two numbers equal the sum', () => {
       expect(willAdd([1, 2, 3], 5)).to.equal(true);

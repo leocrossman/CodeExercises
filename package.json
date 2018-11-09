@@ -1,0 +1,26 @@
+{
+  "name": "CodeExercises",
+  "version": "1.0.0",
+  "description": "A random collection of coding exercises.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./*/*/*.spec.js -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leocrossman/CodeExercises.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leocrossman/CodeExercises/issues"
+  },
+  "homepage": "https://github.com/leocrossman/CodeExercises#readme",
+  "dependencies": {
+    "mocha": "^5.2.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2"
+  }
+}
